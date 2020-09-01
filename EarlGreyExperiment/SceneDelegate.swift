@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  EarlGrey Experiment
+//  EarlGreyExperiment
 //
 //  Created by Adil Hussain on 01/09/2020.
 //  Copyright © 2020 Adil Hussain. All rights reserved.

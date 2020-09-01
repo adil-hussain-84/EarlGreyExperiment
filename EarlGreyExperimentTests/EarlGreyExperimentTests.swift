@@ -1,15 +1,15 @@
 //
-//  EarlGrey_ExperimentTests.swift
-//  EarlGrey ExperimentTests
+//  EarlGreyExperimentTests.swift
+//  EarlGreyExperimentTests
 //
 //  Created by Adil Hussain on 01/09/2020.
 //  Copyright © 2020 Adil Hussain. All rights reserved.
 //
 
 import XCTest
-@testable import EarlGrey_Experiment
+@testable import EarlGreyExperiment
 
-class EarlGrey_ExperimentTests: XCTestCase {
+class EarlGreyExperimentTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
