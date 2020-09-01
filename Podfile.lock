@@ -1,0 +1,16 @@
+PODS:
+  - EarlGrey (1.16.0)
+
+DEPENDENCIES:
+  - EarlGrey (~> 1.16.0)
+
+SPEC REPOS:
+  trunk:
+    - EarlGrey
+
+SPEC CHECKSUMS:
+  EarlGrey: 455e5597ae5ccaca92cd46b81d8b25cacec060a1
+
+PODFILE CHECKSUM: c9d02efe8a03d0b200597254f6dc0b2157b95aa4
+
+COCOAPODS: 1.9.3

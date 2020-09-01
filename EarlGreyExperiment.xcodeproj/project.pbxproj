@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		567F532594D929A9DE7C1CFE /* Pods_EarlGreyExperiment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C7139D4CF92028E65C0A20 /* Pods_EarlGreyExperiment.framework */; };
+		AFDFD41262E7A68D9C0418B3 /* Pods_EarlGreyExperimentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E42DB657D6AAAC9031A248E /* Pods_EarlGreyExperimentTests.framework */; };
 		BC2B5A1E24FE96FB00FA36C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2B5A1D24FE96FB00FA36C0 /* AppDelegate.swift */; };
 		BC2B5A2024FE96FB00FA36C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2B5A1F24FE96FB00FA36C0 /* SceneDelegate.swift */; };
 		BC2B5A2224FE96FB00FA36C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2B5A2124FE96FB00FA36C0 /* ContentView.swift */; };
@@ -15,6 +17,7 @@
 		BC2B5A2A24FE96FF00FA36C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC2B5A2824FE96FF00FA36C0 /* LaunchScreen.storyboard */; };
 		BC2B5A3524FE96FF00FA36C0 /* EarlGreyExperimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2B5A3424FE96FF00FA36C0 /* EarlGreyExperimentTests.swift */; };
 		BC2B5A4024FE96FF00FA36C0 /* EarlGreyExperimentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2B5A3F24FE96FF00FA36C0 /* EarlGreyExperimentUITests.swift */; };
+		E6652ED09AE6818607C2D789 /* Pods_EarlGreyExperimentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2CFE1DC39D040EF2B9112C7 /* Pods_EarlGreyExperimentUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25A7A6E84A37A58666977586 /* Pods-EarlGreyExperiment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarlGreyExperiment.release.xcconfig"; path = "Target Support Files/Pods-EarlGreyExperiment/Pods-EarlGreyExperiment.release.xcconfig"; sourceTree = "<group>"; };
+		3391A505FE2FB8A5F3C19F5F /* Pods-EarlGreyExperimentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarlGreyExperimentUITests.debug.xcconfig"; path = "Target Support Files/Pods-EarlGreyExperimentUITests/Pods-EarlGreyExperimentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		74196EC7834A3715C23E1E8C /* Pods-EarlGreyExperimentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarlGreyExperimentUITests.release.xcconfig"; path = "Target Support Files/Pods-EarlGreyExperimentUITests/Pods-EarlGreyExperimentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7FDB78490D815264B8D9E20F /* Pods-EarlGreyExperimentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarlGreyExperimentTests.release.xcconfig"; path = "Target Support Files/Pods-EarlGreyExperimentTests/Pods-EarlGreyExperimentTests.release.xcconfig"; sourceTree = "<group>"; };
+		8E42DB657D6AAAC9031A248E /* Pods_EarlGreyExperimentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EarlGreyExperimentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C26E9083F0C835831E8A1F6 /* Pods-EarlGreyExperiment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarlGreyExperiment.debug.xcconfig"; path = "Target Support Files/Pods-EarlGreyExperiment/Pods-EarlGreyExperiment.debug.xcconfig"; sourceTree = "<group>"; };
+		A0C7139D4CF92028E65C0A20 /* Pods_EarlGreyExperiment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EarlGreyExperiment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC2B5A1A24FE96FB00FA36C0 /* EarlGreyExperiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarlGreyExperiment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC2B5A1D24FE96FB00FA36C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC2B5A1F24FE96FB00FA36C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,8 @@
 		BC2B5A3B24FE96FF00FA36C0 /* EarlGreyExperimentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarlGreyExperimentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC2B5A3F24FE96FF00FA36C0 /* EarlGreyExperimentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarlGreyExperimentUITests.swift; sourceTree = "<group>"; };
 		BC2B5A4124FE96FF00FA36C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E88784EC0725108E0508FF01 /* Pods-EarlGreyExperimentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarlGreyExperimentTests.debug.xcconfig"; path = "Target Support Files/Pods-EarlGreyExperimentTests/Pods-EarlGreyExperimentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2CFE1DC39D040EF2B9112C7 /* Pods_EarlGreyExperimentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EarlGreyExperimentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				567F532594D929A9DE7C1CFE /* Pods_EarlGreyExperiment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFDFD41262E7A68D9C0418B3 /* Pods_EarlGreyExperimentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6652ED09AE6818607C2D789 /* Pods_EarlGreyExperimentUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A369A6AF6B438F7DF176F3D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C26E9083F0C835831E8A1F6 /* Pods-EarlGreyExperiment.debug.xcconfig */,
+				25A7A6E84A37A58666977586 /* Pods-EarlGreyExperiment.release.xcconfig */,
+				E88784EC0725108E0508FF01 /* Pods-EarlGreyExperimentTests.debug.xcconfig */,
+				7FDB78490D815264B8D9E20F /* Pods-EarlGreyExperimentTests.release.xcconfig */,
+				3391A505FE2FB8A5F3C19F5F /* Pods-EarlGreyExperimentUITests.debug.xcconfig */,
+				74196EC7834A3715C23E1E8C /* Pods-EarlGreyExperimentUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BB002F99E30F1834BC063B4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0C7139D4CF92028E65C0A20 /* Pods_EarlGreyExperiment.framework */,
+				8E42DB657D6AAAC9031A248E /* Pods_EarlGreyExperimentTests.framework */,
+				F2CFE1DC39D040EF2B9112C7 /* Pods_EarlGreyExperimentUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BC2B5A1124FE96FB00FA36C0 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +122,8 @@
 				BC2B5A3324FE96FF00FA36C0 /* EarlGreyExperimentTests */,
 				BC2B5A3E24FE96FF00FA36C0 /* EarlGreyExperimentUITests */,
 				BC2B5A1B24FE96FB00FA36C0 /* Products */,
+				A369A6AF6B438F7DF176F3D8 /* Pods */,
+				BB002F99E30F1834BC063B4E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,6 +184,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC2B5A4424FE96FF00FA36C0 /* Build configuration list for PBXNativeTarget "EarlGreyExperiment" */;
 			buildPhases = (
+				A80C084B6D2461296620D71E /* [CP] Check Pods Manifest.lock */,
 				BC2B5A1624FE96FB00FA36C0 /* Sources */,
 				BC2B5A1724FE96FB00FA36C0 /* Frameworks */,
 				BC2B5A1824FE96FB00FA36C0 /* Resources */,
@@ -160,9 +202,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC2B5A4724FE96FF00FA36C0 /* Build configuration list for PBXNativeTarget "EarlGreyExperimentTests" */;
 			buildPhases = (
+				72F0664F4CFC4D9DC8A99A52 /* [CP] Check Pods Manifest.lock */,
 				BC2B5A2C24FE96FF00FA36C0 /* Sources */,
 				BC2B5A2D24FE96FF00FA36C0 /* Frameworks */,
 				BC2B5A2E24FE96FF00FA36C0 /* Resources */,
+				B97435AA627F206ED961236E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -178,6 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC2B5A4A24FE96FF00FA36C0 /* Build configuration list for PBXNativeTarget "EarlGreyExperimentUITests" */;
 			buildPhases = (
+				1F5797F0862174C324115E4F /* [CP] Check Pods Manifest.lock */,
 				BC2B5A3724FE96FF00FA36C0 /* Sources */,
 				BC2B5A3824FE96FF00FA36C0 /* Frameworks */,
 				BC2B5A3924FE96FF00FA36C0 /* Resources */,
@@ -261,6 +306,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F5797F0862174C324115E4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EarlGreyExperimentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72F0664F4CFC4D9DC8A99A52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EarlGreyExperimentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A80C084B6D2461296620D71E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EarlGreyExperiment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B97435AA627F206ED961236E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EarlGreyExperimentTests/Pods-EarlGreyExperimentTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EarlGreyExperimentTests/Pods-EarlGreyExperimentTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EarlGreyExperimentTests/Pods-EarlGreyExperimentTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BC2B5A1624FE96FB00FA36C0 /* Sources */ = {
@@ -432,6 +563,7 @@
 		};
 		BC2B5A4524FE96FF00FA36C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C26E9083F0C835831E8A1F6 /* Pods-EarlGreyExperiment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +583,7 @@
 		};
 		BC2B5A4624FE96FF00FA36C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25A7A6E84A37A58666977586 /* Pods-EarlGreyExperiment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +603,7 @@
 		};
 		BC2B5A4824FE96FF00FA36C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E88784EC0725108E0508FF01 /* Pods-EarlGreyExperimentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +625,7 @@
 		};
 		BC2B5A4924FE96FF00FA36C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FDB78490D815264B8D9E20F /* Pods-EarlGreyExperimentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +647,7 @@
 		};
 		BC2B5A4B24FE96FF00FA36C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3391A505FE2FB8A5F3C19F5F /* Pods-EarlGreyExperimentUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +667,7 @@
 		};
 		BC2B5A4C24FE96FF00FA36C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74196EC7834A3715C23E1E8C /* Pods-EarlGreyExperimentUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
