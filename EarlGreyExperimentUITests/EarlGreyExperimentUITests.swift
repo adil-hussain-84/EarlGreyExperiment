@@ -2,7 +2,7 @@
 //  EarlGreyExperimentUITests.swift
 //  EarlGreyExperimentUITests
 //
-//  Created by Adil Hussain on 01/09/2020.
+//  Created by Adil Hussain on 02/09/2020.
 //  Copyright © 2020 Adil Hussain. All rights reserved.
 //
 
@@ -11,6 +11,8 @@ import XCTest
 class EarlGreyExperimentUITests: XCTestCase {
 
     override func setUp() {
+        super.setUp()
+        
         // Put setup code here. This method is called before the invocation of each test method in the class.
 
         // In UI tests it is usually best to stop immediately when a failure occurs.
