@@ -8,6 +8,7 @@
 
 import XCTest
 import EarlGrey
+
 @testable import EarlGreyExperiment
 
 class EarlGreyExperimentTests: XCTestCase {
@@ -21,12 +22,6 @@ class EarlGreyExperimentTests: XCTestCase {
     func test_button_is_visible_and_has_expected_text() throws {
         EarlGrey.selectElement(with: grey_accessibilityID("PressMeButton")).assert(grey_sufficientlyVisible())
         
-        EarlGrey.selectElement(with: grey_accessibilityID("PressMeButton")).assert(grey_text("Press Me"))
-    }
-    
-    func test_title_label_in_button_is_visible_and_has_expected_text() throws {
-        EarlGrey.selectElement(with: grey_accessibilityID("TitleLabelInPressMeButton")).assert(grey_sufficientlyVisible())
-        
-        EarlGrey.selectElement(with: grey_accessibilityID("TitleLabelInPressMeButton")).assert(grey_text("Press Me"))
+        EarlGrey.selectElement(with: grey_accessibilityID("PressMeButton")).assert(grey_buttonTitle("Press Me"))
     }
 }

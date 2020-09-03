@@ -13,7 +13,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
-// The following comment has been added by Masabi and is not part of the original EarlGrey.swift file:
+// The following comment has been added and is not part of the original EarlGrey.swift file:
 //
 // This file has been downloaded from the following directory in the EarlGrey GitHub repo...
 // https://github.com/google/EarlGrey/tree/master/gem/lib/earlgrey/files

@@ -10,10 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var pressMeButton: UIButton!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        pressMeButton.titleLabel?.accessibilityIdentifier = "TitleLabelInPressMeButton"
     }
 }
