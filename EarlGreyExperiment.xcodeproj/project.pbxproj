@@ -604,7 +604,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 90226AD9FF3597EB1CC7924B /* Pods-EarlGreyExperimentTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = EarlGreyExperimentTests/Info.plist;
@@ -625,7 +624,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F7E466BF5930492D6174065A /* Pods-EarlGreyExperimentTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = EarlGreyExperimentTests/Info.plist;
@@ -646,7 +644,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 93A53415FD0495747F74DA41 /* Pods-EarlGreyExperimentUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = EarlGreyExperimentUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -666,7 +663,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 21054D0067EB0AF9AB9EB02C /* Pods-EarlGreyExperimentUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = EarlGreyExperimentUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
