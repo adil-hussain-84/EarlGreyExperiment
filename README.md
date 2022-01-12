@@ -1,3 +1,14 @@
 # About
 
-This Xcode project demonstrates how to assert that a particular `UILabel` or `UIButton` (matched by its accessibility identifier) has a particular text with EarlGrey 1. See the [Main.storyboard](EarlGreyExperiment/Base.lproj/Main.storyboard) file for the declaration of the `UIButton` and see the test methods in the [EarlGreyExperimentTests.swift](EarlGreyExperimentTests/EarlGreyExperimentTests.swift) file for the assertions.
+An Xcode workspace that demonstrates how to setup UI tests with EarlGrey 1.
+
+This workspace contains an application target ([EarlGreyExperiment](EarlGreyExperiment)) and a unit testing target ([EarlGreyExperimentTests](EarlGreyExperimentTests)) which defines some UI tests for the application target.
+
+Note that the UI tests defined in this workspace will only run and pass on devices running iOS 13 and older. EarlGrey 1 is deprecated and is not supported for iOS 14+ devices.
+
+# Setup
+
+1. Clone the repository.
+1. Run `pod install` in the repository's root folder.
+1. Open the Xcode workspace.
+1. Run the tests defined in [EarlGreyExperimentTests](EarlGreyExperimentTests).
