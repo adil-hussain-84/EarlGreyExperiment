@@ -9,9 +9,7 @@
 import XCTest
 import EarlGrey
 
-@testable import EarlGreyExperiment
-
-class EarlGreyExperimentTests: XCTestCase {
+class StandardMatcherTests: XCTestCase {
     
     func test_label_is_visible_and_has_expected_text() throws {
         EarlGrey.selectElement(with: grey_accessibilityID("HelloWorldLabel")).assert(grey_sufficientlyVisible())

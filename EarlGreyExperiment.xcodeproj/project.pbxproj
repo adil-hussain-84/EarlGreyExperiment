@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		2868FC11528EC05254311D76 /* Pods_EarlGreyExperiment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F86F40B69B087B50DFC0BBBB /* Pods_EarlGreyExperiment.framework */; };
+		BC053BCE2538959B00B89B9B /* CustomMatcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC053BCD2538959B00B89B9B /* CustomMatcherTests.swift */; };
 		BCD5208424FF94490019B2AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD5208324FF94490019B2AF /* AppDelegate.swift */; };
 		BCD5208624FF94490019B2AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD5208524FF94490019B2AF /* SceneDelegate.swift */; };
 		BCD5208824FF94490019B2AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD5208724FF94490019B2AF /* ViewController.swift */; };
 		BCD5208B24FF94490019B2AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCD5208924FF94490019B2AF /* Main.storyboard */; };
 		BCD5208D24FF944A0019B2AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCD5208C24FF944A0019B2AF /* Assets.xcassets */; };
 		BCD5209024FF944A0019B2AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCD5208E24FF944A0019B2AF /* LaunchScreen.storyboard */; };
-		BCD5209B24FF944A0019B2AF /* EarlGreyExperimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD5209A24FF944A0019B2AF /* EarlGreyExperimentTests.swift */; };
+		BCD5209B24FF944A0019B2AF /* StandardMatcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD5209A24FF944A0019B2AF /* StandardMatcherTests.swift */; };
 		BCD520A624FF944A0019B2AF /* EarlGreyExperimentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD520A524FF944A0019B2AF /* EarlGreyExperimentUITests.swift */; };
 		BCD520B424FF949B0019B2AF /* EarlGrey.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD520B324FF949B0019B2AF /* EarlGrey.swift */; };
 		D2E8F06312A56D7FCAC21934 /* Pods_EarlGreyExperimentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D508AD3FD6A43C6BDA30A17 /* Pods_EarlGreyExperimentUITests.framework */; };
@@ -45,6 +46,7 @@
 		89B650FABF39941CAE91BAE0 /* Pods_EarlGreyExperimentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EarlGreyExperimentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90226AD9FF3597EB1CC7924B /* Pods-EarlGreyExperimentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarlGreyExperimentTests.debug.xcconfig"; path = "Target Support Files/Pods-EarlGreyExperimentTests/Pods-EarlGreyExperimentTests.debug.xcconfig"; sourceTree = "<group>"; };
 		93A53415FD0495747F74DA41 /* Pods-EarlGreyExperimentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarlGreyExperimentUITests.debug.xcconfig"; path = "Target Support Files/Pods-EarlGreyExperimentUITests/Pods-EarlGreyExperimentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC053BCD2538959B00B89B9B /* CustomMatcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMatcherTests.swift; sourceTree = "<group>"; };
 		BCD5208024FF94490019B2AF /* EarlGreyExperiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarlGreyExperiment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCD5208324FF94490019B2AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCD5208524FF94490019B2AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,7 +56,7 @@
 		BCD5208F24FF944A0019B2AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCD5209124FF944A0019B2AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCD5209624FF944A0019B2AF /* EarlGreyExperimentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarlGreyExperimentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BCD5209A24FF944A0019B2AF /* EarlGreyExperimentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarlGreyExperimentTests.swift; sourceTree = "<group>"; };
+		BCD5209A24FF944A0019B2AF /* StandardMatcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardMatcherTests.swift; sourceTree = "<group>"; };
 		BCD5209C24FF944A0019B2AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCD520A124FF944A0019B2AF /* EarlGreyExperimentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarlGreyExperimentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCD520A524FF944A0019B2AF /* EarlGreyExperimentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarlGreyExperimentUITests.swift; sourceTree = "<group>"; };
@@ -155,9 +157,10 @@
 		BCD5209924FF944A0019B2AF /* EarlGreyExperimentTests */ = {
 			isa = PBXGroup;
 			children = (
+				BC053BCD2538959B00B89B9B /* CustomMatcherTests.swift */,
 				BCD520B324FF949B0019B2AF /* EarlGrey.swift */,
-				BCD5209A24FF944A0019B2AF /* EarlGreyExperimentTests.swift */,
 				BCD5209C24FF944A0019B2AF /* Info.plist */,
+				BCD5209A24FF944A0019B2AF /* StandardMatcherTests.swift */,
 			);
 			path = EarlGreyExperimentTests;
 			sourceTree = "<group>";
@@ -403,7 +406,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCD520B424FF949B0019B2AF /* EarlGrey.swift in Sources */,
-				BCD5209B24FF944A0019B2AF /* EarlGreyExperimentTests.swift in Sources */,
+				BC053BCE2538959B00B89B9B /* CustomMatcherTests.swift in Sources */,
+				BCD5209B24FF944A0019B2AF /* StandardMatcherTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
