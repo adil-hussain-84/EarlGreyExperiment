@@ -11,8 +11,9 @@ import EarlGrey
 
 class CustomMatcherTests: XCTestCase {
     
-    func test_fail() throws {
+    func test_pass() throws {
         EarlGrey.selectElement(with: grey_accessibilityID("HelloWorldLabel")).assert(grey_pass())
+        EarlGrey.selectElement(with: grey_accessibilityID("PressMeButton")).assert(grey_pass())
     }
 }
 
