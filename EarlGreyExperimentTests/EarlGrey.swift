@@ -17,9 +17,8 @@
 //
 // This file has been downloaded from the following directory in the EarlGrey GitHub repo...
 // https://github.com/google/EarlGrey/tree/master/gem/lib/earlgrey/files
-// ... and included in the JustRideSDKEarlGreyTests target directly because of the following issue...
+// ... and included in this target directly because of the following issue...
 // https://github.com/google/EarlGrey/issues/669
-// We'll need to keep an eye on this file and keep it updated separately to our EarlyGrey pod dependency.
 
 import EarlGrey
 import Foundation
