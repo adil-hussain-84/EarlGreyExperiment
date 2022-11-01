@@ -183,11 +183,11 @@ extension GREYInteraction {
 }
 
 extension GREYCondition {
-  open func waitWithTimeout(seconds: CFTimeInterval) -> Bool {
+  public func waitWithTimeout(seconds: CFTimeInterval) -> Bool {
     return self.wait(withTimeout: seconds)
   }
 
-  open func waitWithTimeout(seconds: CFTimeInterval, pollInterval: CFTimeInterval)
+  public func waitWithTimeout(seconds: CFTimeInterval, pollInterval: CFTimeInterval)
     -> Bool {
       return self.wait(withTimeout: seconds, pollInterval: pollInterval)
   }
