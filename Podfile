@@ -12,7 +12,3 @@ target 'EarlGreyExperimentTests' do
   import_pods
   pod 'EarlGrey', '~> 1.16.0'
 end
-
-target 'EarlGreyExperimentUITests' do
-  import_pods
-end
