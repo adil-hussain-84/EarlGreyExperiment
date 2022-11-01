@@ -10,5 +10,5 @@ Note that the UI tests defined in this workspace will only run and pass on devic
 
 1. Clone the repository.
 1. Run `pod install` in the repository's root folder.
-1. Open the Xcode workspace.
+1. Open the [EarlGreyExperiment.xcworkspace](EarlGreyExperiment.xcworkspace) file in Xcode.
 1. Run the tests defined in [EarlGreyExperimentTests](EarlGreyExperimentTests).
